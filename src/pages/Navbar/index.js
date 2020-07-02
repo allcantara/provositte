@@ -1,5 +1,7 @@
 import React from "react";
-import profile from "../../assets/img/profile.jpg";
+import logotipo from "../../assets/img/logotipo.png";
+
+import { Image } from './styles'
 
 export default () => {
   return (
@@ -7,16 +9,16 @@ export default () => {
       className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
     >
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">
+      <span className="navbar-brand js-scroll-trigger">
         <span className="d-block d-lg-none">Provositte</span>
         <span className="d-none d-lg-block">
-          <img
-            className="img-fluid img-profile rounded-circle mx-auto mb-2"
-            // src={}
-            alt=""
+          <Image
+            className="img-fluid mx-auto"
+            src={logotipo}
+            alt="Provocatto"
           />
         </span>
-      </a>
+      </span>
       <button
         className="navbar-toggler"
         type="button"
