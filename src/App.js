@@ -13,8 +13,9 @@ import {
 import './globalStyles.css'
 
 function App() {
+
   return (
-      <div className="page-top">
+      <div className="page-top" >
         <Navbar />
 
         <div className="container-fluid p-0">

@@ -1,16 +1,22 @@
 import React from "react";
 import logotipo from "../../assets/img/logotipo.png";
 
-import { Image } from './styles'
+import { Navbar, Image, ImageResponsive } from './styles'
 
 export default () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    <Navbar
+      className="navbar navbar-expand-lg navbar-dark fixed-top"
       id="sideNav"
     >
       <span className="navbar-brand js-scroll-trigger">
-        <span className="d-block d-lg-none">Provositte</span>
+        <span className="d-block d-lg-none">
+          <ImageResponsive
+            className="img-fluid mx-auto"
+            src={logotipo}
+            alt="Provocatto"
+          />
+        </span>
         <span className="d-none d-lg-block">
           <Image
             className="img-fluid mx-auto"
@@ -64,6 +70,6 @@ export default () => {
           </li>
         </ul>
       </div>
-    </nav>
+    </Navbar>
   );
 };

@@ -8,6 +8,15 @@ export default () => {
     >
       <div className="w-100">
         <h2 className="mb-5">Menu 6</h2>
+
+        <div className="social-icons">
+          <a href="#">
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+        </div>
       </div>
     </section>
   );
