@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f27696259447368495c1240942873c9",
+    "revision": "1dbd146c3d8e8366920992006a41b034",
     "url": "/provositte/index.html"
   },
   {
-    "revision": "643347a171935ab68a28",
-    "url": "/provositte/static/css/main.1d72c37f.chunk.css"
+    "revision": "60d35678f0518e4424f8",
+    "url": "/provositte/static/css/main.5c06a951.chunk.css"
   },
   {
     "revision": "4de0582500570cebd834",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/provositte/static/js/2.96ce778d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "643347a171935ab68a28",
-    "url": "/provositte/static/js/main.4ab57e20.chunk.js"
+    "revision": "60d35678f0518e4424f8",
+    "url": "/provositte/static/js/main.8189c840.chunk.js"
   },
   {
     "revision": "9cac172462a451309b15",
