@@ -1,4 +1,4 @@
-import styled, { css } from  'styled-components'
+import styled from  'styled-components'
 
 export const Navbar = styled.nav`
   padding: 10px 20px 40px;
