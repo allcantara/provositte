@@ -7,7 +7,7 @@ export default () => {
       id="education"
     >
       <div className="w-100">
-        <h2 className="mb-5">Menu 3</h2>
+        <h2 className="mb-5 text-primary">Menu 3</h2>
       </div>
     </section>
   );

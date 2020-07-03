@@ -7,7 +7,7 @@ export default () => {
       id="awards"
     >
       <div className="w-100">
-        <h2 className="mb-5">Menu 6</h2>
+        <h2 className="mb-5 text-primary">Menu 6</h2>
 
         <div className="social-icons">
           <a href="#">
